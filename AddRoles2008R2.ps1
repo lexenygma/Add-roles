@@ -1,0 +1,4 @@
+# Import module that will add/remove roles from server
+Import-Module Servermanager 
+# Roles to be added for IMPAX functionality
+Add-WindowsFeature adlds, application-server, as-net-framework, web-webserver, web-common-http, web-static-content,web-default-doc, web-dir-browsing, web-http-errors, web-health, web-http-logging, web-request-monitor, web-security, web-windows-auth, web-ip-security, web-performance, web-dynamic-compression, web-mgmt-tools, web-mgmt-compat, web-metabase, web-wmi, web-lgcy-scripting, web-lgcy-mgmt-console, web-whc, net-framework, net-framework-core, rsat, rsat-role-tools, rsat-web-server
